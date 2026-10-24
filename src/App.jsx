@@ -1,5 +1,7 @@
+import SignUp from './SignUp'
+
 function App() {
-  return <h1>APPDEV1 Final Project</h1>
+  return <SignUp />
 }
 
 export default App

@@ -1,0 +1,26 @@
+:global(body) {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.left {
+  flex: 43;
+}
+
+.right {
+  flex: 57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blossom {
+  height: 90%;
+  max-width: 100%;
+  object-fit: contain;
+}
