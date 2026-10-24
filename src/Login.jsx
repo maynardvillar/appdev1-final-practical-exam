@@ -7,7 +7,8 @@ function Login() {
   return (
     <div className={styles.container}>
       <section className={styles.left}>
-        <h1 className={styles.title}>Get Started Now</h1>
+        <h1 className={styles.title}>Welcome back!</h1>
+        <p className={styles.subtitle}>Enter your Credentials to access your account</p>
 
         <form className={styles.form}>
           <div className={styles.field}>
