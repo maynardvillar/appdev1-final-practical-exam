@@ -12,16 +12,6 @@ function Login() {
 
         <form className={styles.form}>
           <div className={styles.field}>
-            <label className={styles.label} htmlFor="name">Name</label>
-            <input
-              className={styles.input}
-              id="name"
-              type="text"
-              placeholder="Enter your name"
-            />
-          </div>
-
-          <div className={styles.field}>
             <label className={styles.label} htmlFor="email">Email address</label>
             <input
               className={styles.input}
@@ -32,7 +22,10 @@ function Login() {
           </div>
 
           <div className={styles.field}>
-            <label className={styles.label} htmlFor="password">Password</label>
+            <div className={styles.labelRow}>
+              <label className={styles.label} htmlFor="password">Password</label>
+              <a href="#" className={styles.forgot}>forgot password</a>
+            </div>
             <input
               className={styles.input}
               id="password"
@@ -42,13 +35,13 @@ function Login() {
           </div>
 
           <div className={styles.checkboxRow}>
-            <input id="terms" type="checkbox" className={styles.checkbox} />
-            <label htmlFor="terms" className={styles.checkboxLabel}>
-              I agree to the <a href="#" className={styles.link}>terms &amp; policy</a>
+            <input id="remember" type="checkbox" className={styles.checkbox} />
+            <label htmlFor="remember" className={styles.checkboxLabel}>
+              Remember for 30 days
             </label>
           </div>
 
-          <button type="submit" className={styles.button}>Signup</button>
+          <button type="submit" className={styles.button}>Login</button>
         </form>
 
         <div className={styles.divider}>
