@@ -10,6 +10,10 @@
 
 .left {
   flex: 43;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 18vh 0 0 8%;
 }
 
 .right {
@@ -23,4 +27,12 @@
   height: 90%;
   max-width: 100%;
   object-fit: contain;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #000000;
 }
